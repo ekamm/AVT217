@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	 
+<meta charset="UTF-8">
+	<style>
+ 	body {
+ 	background-color: #F7C800;
+ 	}
+ </style>
+<title>W3exercise24</title>
+</head>
+<body>
+<img src="boats60.png"></img>
+ <img src="boats60.jpg"></img>
+<img src="boats100.jpg"></img>
+<img src="asian.png"></img>
+ <img src="asian60.jpg"></img>
+<img src="asian100.jpg"></img>
+</body>
+</html>
+
