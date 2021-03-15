@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background-image: url("../images/background.png");
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#wrapper{
+	
+}
+
+
+main{ width:960px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	
+}
+
+.column{
+	width: 30%;
+	float: left;
+	
+	
+}
+
+#banner{
+	width: 100%;
+	margin-bottom: 30px;	
+	background-color: gainsboro;
+	overflow: hidden;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 21px;
+	color: #000000;
+	padding: 20px;
+	
+}
+
+
+h2{
+	font-size: 16px;
+	color: #760000;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+h3 {
+	font-size: 16px;
+	color: #575757;
+	font-weight: bold;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.weekly{
+	font-size: 16px;
+	color: #575757;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.projects{
+	font-size: 16px;
+	color: #575757;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: right;
+	margin-right: 400px;
+	
+}
+
+dt{
+	font-size: 16px;
+	color: black;
+	margin: 0 10px 10px;	
+}
+
+dd{
+	font-size: 14px;
+
+	margin: 0 25px 10px;
+}
+
+footer{
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+	height: 15px;
+	background-image: linear-gradient(to right, #dcdcdc, #dcdcdc);
+	
+}
+
+a:link {
+	color: black;
+	text-decoration :none;
+}
+
+a:hover {
+	color:#00FF23;
+	text-decoration:underline;
+}
+
+a:visited {
+	color: #950002;
+	text-decoration:line-through;	
+}
+
+
+
+
+
+
+
+
+
+
