@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#gallery img { padding:5px;}
+
+
+#gallery1 { 
+	width:490px; 
+	
+padding:5px;
+	float: center;
+	margin: 0 auto;
+	padding:5px;
+	margin: 0 auto;
+}
+
+#gallery2 { 
+	width:490px; 
+ 
+padding:5px;
+	float: center;
+	margin: 0 auto;
+	padding:5px;
+	margin: 0 auto;
+}
+
+#gallery3 { 
+	width:490px; 
+
+padding:5px;
+	float: center;
+	margin: 0 auto;
+	padding:5px;
+	margin: 0 auto;
+	
+}
+
+#gallery4 { 
+	
+width:490px; 
+	text-align:  center;
+	margin: 0 auto;
+	padding:5px;
+	
+	padding-right:30px;
+	margin: 0 auto;
+	padding-bottom: 70px;}
