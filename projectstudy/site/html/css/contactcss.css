@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* header background*/
+
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 20px; 
+  border: 1px solid #A42022; /* Gray border */
+  border-radius: 10px; /* Rounded borders */
+  box-sizing: border-box; 
+  margin-top: 11px; /*  top margin */
+  margin-bottom: 20px; /* Bottom margin */
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color:#000000;
+  color: #FFFFFF;
+  padding: -10px 40px;
+  border: none;
+	
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+/* submit hover over color */
+input[type=submit]:hover {
+  background-color: #6A78DF;
+}
+
+/* background color */
+.container {
+	width:50%;
+    position: absolute;
+	    top: 51%;
+        left: 50%;
+	margin-top: 20px;
+        margin-right: 50%;
+        transform: translate(-50%, -50%);
+  border-radius: -1px;
+  background: url(../Images/originals/paint4.jpg);
+	background-repeat: no-repeat;
+	background-size: 1210px;
+	background-position: center;
+
+}
+
+
+
+
