@@ -2,27 +2,27 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Coding in progresHTML</title>
+<title>Contact in ProgressHTML</title>
 	
-	<link rel="stylesheet" href="css/refinedcss.css" />
+		<link rel="stylesheet" href="css/refinedcss.css"/>
+		<link rel="stylesheet" href="css/contactcss.css"/>
 </head>
 
 <style>
 	
 body {
 
-   background-image: url("images/originals/mov4.gif");
-	background-color:#000000;
-		background-position: center;
+   background-image: url("images/originals/paint4.jpg");
+	background-color:blue;
+	background-position: center;
 	background-repeat:no-repeat; 
-  background-attachment: fixed;
-	background-size: 1120px;
-}
+    background-attachment:fixed;
+	background-size: 1220px;
 
 
 }
-h1{text-align: center;
-		padding-bottom: 10px;
+h1{ text-align: center;
+	padding-bottom: 10px;
 		}
 	
 h2{
@@ -67,21 +67,40 @@ text-align: center; }
 		
 <!--RIGHT header elements bar end-->
 	
-  <div class="header-right">
+    <div class="header-right">
     <!--a class is the hover ability, #home, continuing on to the other specific tags. Also need to figure out how to add classes and references as well as hyperlinks...-->
-	  <a href="codinginprogress.html"><span class="home"> Home</span></a> 
+	    <a href="codinginprogress.html"><span class="home"> Home</span></a> 
 	  <a href="aboutprogress.html"><span class="links">About</span></a>
     <a href="portfolioprogress.html"> <span class="highlight">Portfolio</span></a>
 	    <a href="contactprogress.html"> <span class="links">Contacts</span></a>
   
 </div>
 	  
-	
-
+</div>
+		
+		
 <!--end of header bar set up-->
-	</div></div>
+	</div>
+<!--start of contact form set up-->
+<div class="container">
+  
 
+    <label for="fname">Lets start with your name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Introducing...">
 
+    <label for="lname">Can I get your email?</label>
+    <input type="text" id="lname" name="lastname" placeholder="artsybeet@gmail.com">
+
+    <label for="subject">Tell me something good!</label>
+    <textarea id="subject" name="subject" placeholder="knock, knock, whose..." style="height:200px"></textarea>
+
+	  
+    <input type="submit" value="Send">
+
+  </form>
+</div>
+
+<!--end of contact set up-->
  <!-- start of footer set up -->
 <div class="footer">
 	<footer><small> Copyright 2021, &copy; Elizabeth Kamm</small> </footer>
@@ -89,5 +108,8 @@ text-align: center; }
 
  <!-- end of footer set up -->
 
+	
+	
+</div>
 </body>
 </html>
