@@ -3,45 +3,79 @@
 
 
 .first-letter {
-  font-size: 90px; }
+  font-size: 108px; 
+    float: left;
+    line-height: ;
+    font-weight: bold;
+    margin-right: -10px;
+	margin-left: 20px;
+	margin-bottom: -30px;
+	margin-top: -55px;
+	
+}
+
 
 
 img {  
 
 align-content: center;
+	
 padding: 30px;}
 
-
+.location {
+	text-align: center;
+	font-size: 16px;
+	color:darkslategrey;
+}
 .box {
  float:right;
 	align-content: center;
-    width: 300px;
-    margin-left: 10px;
-	margin-right: -200px;
+    width: 600px;
+    margin-left: 70px;
+	margin-right: 90px;
     margin-top: 70px;
-    padding: 100px;
+    padding: 40px;
+	padding-top: 80px;
     border: 1px solid black;
-	background: #C4C4C4 ;
+	background: rgba(255,255,255, 0.80);
 
 }
 
 
 
+.clickables {
+align-items: center;
+	padding-bottom: 100px;
+	
 
+  
+	
+	
+	
+}
 .box2 {
  float:left;
-    width: 400px;
-    margin-left: 50px;
+	align-content: center;
+    width: 300px;
+    margin-left: 100px;
 	margin right: 20px;
-    margin-top: 30px;
-    padding: 5px;
-	padding-top: 10px;
-    background: #A7A7A7;
+    margin-top: 20px;
+    padding: 1px;
+	padding-top: -10px;
+	padding-bottom: -100px;
+	 border: 1px solid black;
+    background: rgba(255,255,255, 0.60) ;
 
 	align-content: center;
 }
 
-.link1{ color: #7F5C5D;
+
+
+   
+}
+.link1{ 
+	font size: 10em;
+	color: #0CA30D;
 	
 }
 	
